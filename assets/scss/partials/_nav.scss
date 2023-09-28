@@ -25,6 +25,10 @@
             line-height: 18.75px;
             color: #4F5665;
             text-decoration: none;
+            &:hover{
+              color: #F53838;
+              transition: 0.5 ease-in-out;
+            }
           }
         }
       }
