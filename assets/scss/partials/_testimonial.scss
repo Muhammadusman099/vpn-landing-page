@@ -1,13 +1,18 @@
 #testimonial{
     background:rgba(165, 42, 42, 0.082);
     .testimonial_content{
-        background: #ffff;
         display: flex;
         align-items: center;
         justify-content: center;
         width:200px;
-        height: 200px;
+        height: 100px;
         margin-bottom: 20px;
         gap: 1rem;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        .testimonial_img{
+            img{
+                width: 50px;
+            }
+        }
     }
 }
