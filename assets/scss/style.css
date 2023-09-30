@@ -223,6 +223,7 @@ body {
 
 #pricing {
   background: rgba(186, 206, 216, 0.294);
+  padding: 50px 0;
 }
 #pricing h1 {
   font-size: 35px;
@@ -243,18 +244,36 @@ body {
   justify-content: center;
   box-shadow: rgba(77, 77, 133, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
-#pricing .pricing_card .pricing_img img {
-  padding-top: 30px;
-}
 #pricing .pricing_card .pricing_content {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 #pricing .pricing_card .pricing_content p {
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 25px;
+  font-weight: 600;
   line-height: 30px;
   color: #0B132A;
   padding-top: 10px;
+}
+#pricing .pricing_card .pricing_content span .fas {
+  color: #2fab73;
+  font-size: 18px;
+  margin: 10px;
+}
+#pricing .pricing_card .pricing_content .primary_btn a {
+  background: transparent;
+  border: 2px solid #F53838;
+  padding: 5px 35px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #F53838;
+  text-decoration: none;
+}
+#pricing .pricing_card .pricing_content .primary_btn a:hover {
+  background: #F53838;
+  border: #F53838;
+  color: #fff;
+  transition: 0.5s ease-in-out;
 }/*# sourceMappingURL=style.css.map */
