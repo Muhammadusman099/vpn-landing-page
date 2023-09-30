@@ -1,0 +1,37 @@
+#features{
+    .feature_img{
+        margin-top: 50px;
+    }
+    .feature_content{
+        margin-top: 150px;
+        h2{
+            font-size: 35px;
+            font-weight: 700;
+            line-height: 50px;
+            color:#0B132A;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 30px;
+            color:#4F5665;
+        }
+        span{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 30px;
+            color: #4F5665;
+            .fas{
+                background:#2fab73;
+                border-radius: 30px;
+                width: 20px;
+                height: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #ffff;
+                margin: 5px 8px;
+            }
+        }
+    }
+}

@@ -1,3 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 .site_header {
   position: absolute;
   width: 100%;
@@ -138,11 +152,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  margin-left: 50px;
   width: 200px;
   height: 100px;
   margin-bottom: 20px;
   gap: 1rem;
-  box-shadow: rgba(0, 0, 252, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  box-shadow: rgba(77, 77, 133, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 #testimonial .testimonial_content .testimonial_img img {
   width: 50px;
@@ -168,4 +184,77 @@
   #testimonial {
     display: none;
   }
+}
+#features .feature_img {
+  margin-top: 50px;
+}
+#features .feature_content {
+  margin-top: 150px;
+}
+#features .feature_content h2 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #0B132A;
+}
+#features .feature_content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #4F5665;
+}
+#features .feature_content span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #4F5665;
+}
+#features .feature_content span .fas {
+  background: #2fab73;
+  border-radius: 30px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin: 5px 8px;
+}
+
+#pricing {
+  background: rgba(186, 206, 216, 0.294);
+}
+#pricing h1 {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 50px;
+  color: #0B132A;
+}
+#pricing p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #4F5665;
+}
+#pricing .pricing_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(77, 77, 133, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+#pricing .pricing_card .pricing_img img {
+  padding-top: 10px;
+}
+#pricing .pricing_card .pricing_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#pricing .pricing_card .pricing_content p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #0B132A;
+  padding-top: 10px;
 }/*# sourceMappingURL=style.css.map */

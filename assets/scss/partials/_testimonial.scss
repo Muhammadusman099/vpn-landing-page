@@ -4,11 +4,13 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        text-align: center;
+        margin-left: 50px;
         width:200px;
         height: 100px;
         margin-bottom: 20px;
         gap: 1rem;
-        box-shadow: rgba(0, 0, 252, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        box-shadow: rgba(77, 77, 133, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
         .testimonial_img{
             img{
                 width: 50px;
