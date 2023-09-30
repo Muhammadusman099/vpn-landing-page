@@ -244,7 +244,7 @@ body {
   box-shadow: rgba(77, 77, 133, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 #pricing .pricing_card .pricing_img img {
-  padding-top: 10px;
+  padding-top: 30px;
 }
 #pricing .pricing_card .pricing_content {
   display: flex;
