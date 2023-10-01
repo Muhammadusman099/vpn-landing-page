@@ -99,7 +99,6 @@ body {
   background-position: center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
-  background: rgba(165, 42, 42, 0.082);
 }
 .banner_sec .banner_content {
   display: flex !important;
@@ -144,9 +143,6 @@ body {
   .banner_sec img {
     display: none !important;
   }
-}
-#testimonial {
-  background: rgba(165, 42, 42, 0.082);
 }
 #testimonial .testimonial_content {
   display: flex;
@@ -276,4 +272,88 @@ body {
   border: #F53838;
   color: #fff;
   transition: 0.5s ease-in-out;
+}
+
+#subscribe {
+  padding: 50px 0;
+}
+#subscribe .bg {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: rgba(77, 77, 133, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  padding: 50px 50px;
+}
+#subscribe .bg .subs_content h4 {
+  font-size: 35px;
+  font-weight: 500;
+}
+#subscribe .bg .subs_content h4 span {
+  color: #f53838;
+  font-weight: 700;
+}
+#subscribe .bg .subs_content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #4F5665;
+}
+#subscribe .bg .subs_btn {
+  background: #F53838;
+  padding: 12px 30px;
+  border-radius: 5px;
+  box-shadow: rgba(255, 1, 98, 0.25) 0px 50px 100px -20px, rgba(255, 71, 71, 0.3) 0px 30px 60px -30px;
+}
+#subscribe .bg .subs_btn a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+  color: white;
+  text-decoration: none;
+  font-variant: small-caps;
+}
+#subscribe .bg .subs_btn:hover {
+  background: transparent;
+  border: 1px solid #F53838;
+  transition: 0.5s;
+}
+#subscribe .bg .subs_btn:hover a {
+  color: #F53838;
+}
+
+#footer {
+  padding: 50px 0;
+  background: rgba(198, 198, 237, 0.342);
+}
+#footer p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-top: 5px;
+}
+#footer span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #AFB5C0;
+}
+#footer ul {
+  display: flex;
+  margin-left: -35px;
+  margin-top: 10px;
+  gap: 0.5rem;
+}
+#footer ul li {
+  list-style: none;
+}
+#footer ul li a {
+  background: #fff;
+  padding: 10px 15px;
+  border-radius: 50px;
+  color: #F53838;
+}
+#footer ul li a:hover {
+  background: #F53838;
+  color: #fff;
+  transition: 0.5s;
 }/*# sourceMappingURL=style.css.map */
